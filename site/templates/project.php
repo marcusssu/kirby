@@ -3,6 +3,8 @@
   <main class="main" role="main">
 
     <h1><?php echo $page->title()->html() ?></h1>
+    <h2><?php echo $page->title()->html() ?></h2>
+    <h3><?php echo $page->title()->html() ?></h3>
 
     <ul class="meta cf">
       <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
